@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/historyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:text="History of Requests"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="36sp" />
+
+    <ListView
+        android:id="@+id/historyLV"
+        android:layout_width="match_parent"
+        android:layout_height="500dp" />
+
+</LinearLayout>
